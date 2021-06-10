@@ -65,6 +65,7 @@ button.style.color = "white"
 button.style.borderRadius = "5px"
 const undo = document.createElement("i")
 undo.classList = "fas fa-undo-alt"
+undo.style.paddingRight = "5px"
 // ------ creating the UNDO icon in front of the BUTTON
 button.prepend(undo)
 
